@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Business Website Template</title>
+    <!--CSS links-->
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/navbar.css"/>
+    <link rel="stylesheet" href="styles/hero.css"/>
+    <link rel="stylesheet" href="styles/about.css"/>
+    <link rel="stylesheet" href="styles/services.css"/>
+    <link rel="stylesheet" href="styles/footer.css"/>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo">JASSEM'</a>
+        <button class="navbar__toggle" id="mobile-menu" onclick="hambFunc()">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+        <div class="hamb-bg">
+          <ul class="hamb-links">
+              <li><a href="#">Home</a></li>
+              <li><a href="#about">About </a></li>
+              <li><a href="#work">work</a></li>
+              <li><a href="#contact">contact</a></li>
+          </ul>
+      </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-page">About</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#services" class="navbar__links" id="services-page"
+              >Services</a
+            >
+          </li>
+          <li class="navbar__btn">
+            <a href="#sign-up" class="button" id="signup">Sign Up</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+      <div class="hero__container">
+        <div class="hero__intro__container">
+          <h1 class="hero__heading"><span>HELLO!</span></h1>
+        </div>
+        <hr class="hr">
+        <p class="hero__description">welcome to this project </p>
+        <button id="btn_hire" class="main__btn"><a href="#sign-up">Sign up</a></button>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="main" id="about">
+      <div class="main__container">
+        <div class="main__content">
+          <h1>What do we do?</h1>
+          <h2>We help streamers scale</h2>
+          <p>Schedule a call to learn more about our services</p>
+          <button class="main__btn"><a href="#">Schedule Call</a></button>
+        </div>
+        <div class="main__img--container">
+          <div class="main__img--card"><i class="fas fa-layer-group"></i></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services Section -->
+    
+    <section id="services">
+      <h1>Our Services</h1>
+      <div class="services">
+        <div class="service">
+          <div class="service-thumbnail">
+            <a href="#sign-up">
+              <img src="src/coaching.jpg" alt="Coaching services">
+            </a>
+          </div>
+          <div class="service-details">
+            <a href="#sign-up">
+              <h3>Coaching services</h3>
+            </a>
+            <p> Experienced gamers can offer coaching services to help new or struggling players improve their skills.</p>
+          </div>
+        </div>
+        <div class="service">
+          <div class="service-thumbnail">
+            <a href="#sign-up">
+              <img src="src/Trading.jpg" alt="In-game currency selling">
+            </a>
+          </div>
+          <div class="service-details">
+            <a href="#sign-up">
+              <h3>In-game currency selling</h3>
+            </a>
+            <p>Players can sell in-game currency such as gold or diamonds to other players.</p>
+          </div>
+        </div>
+        <div class="service">
+          <div class="service-thumbnail">
+            <a href="#sign-up">
+              <img src="src/PcGames.jpg" alt="Account selling & rental">
+            </a>
+          </div>
+          <div class="service-details">
+            <a href="#sign-up">
+              <h3>Account selling & rental</h3>
+            </a>
+            <p>Players who have built up a valuable game account can sell it to other players or rent it out</p>
+          </div>
+        </div>
+        <div class="service">
+          <div class="service-thumbnail">
+            <a href="#sign-up">
+              <img src="src/Server.jpg" alt="Game server hosting">
+            </a>
+          </div>
+          <div class="service-details">
+            <a href="#sign-up">
+              <h3>Game server hosting</h3>
+            </a>
+            <p>Gamers can offer to host game servers for other players to play on.</p>
+          </div>
+        </div>
+        <div class="service">
+          <div class="service-thumbnail">
+            <a href="#sign-up">
+              <img src="src/VirtualTrading.jpg" alt="Virtual item trading">
+            </a>
+          </div>
+          <div class="service-details">
+            <a href="#sign-up">
+              <h3>Virtual item trading</h3>
+            </a>
+            <p>Players can buy, sell, or trade virtual items such as weapons, armor, and other in-game items.</p>
+          </div>
+        </div>
+        <div class="service">
+          <div class="service-thumbnail">
+            <a href="#sign-up">
+              <img src="src/PcGears.jpg" alt="Buy & sell PC gaming gear">
+            </a>
+          </div>
+          <div class="service-details">
+            <a href="#sign-up">
+              <h3>Buy & sell PC gaming gear</h3>
+            </a>
+            <p>amers can find quality gear at affordable prices, while also allowing sellers to make some money back on their old equipment.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <div class="main" id="sign-up">
+      <div class="main__container">
+        <div class="main__img--container">
+          <div class="main__img--card" id="card-2">
+            <i class="fas fa-users"></i>
+          </div>
+        </div>
+        <div class="main__content">
+          <h1>Join Our Community</h1>
+          <h2>Sign Up Today</h2>
+          <p>See what makes us different</p>
+          <button class="main__btn"><a href="signUp.html">Sign Up</a></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+      <div class="footer__links">
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>About Us</h2>
+            <a href="/sign__up">How it works</a> <a href="/">Testimonials</a>
+            <a href="/">Careers</a> <a href="/">Terms of Service</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Contact Us</h2>
+            <a href="/">Contact</a> <a href="/">Support</a>
+            <a href="/">Destinations</a>
+          </div>
+        </div>
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>Videos</h2>
+            <a href="/">Submit Video</a> <a href="/">Ambassadors</a>
+            <a href="/">Agency</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Social Media</h2>
+            <a href="/">Instagram</a> <a href="/">Facebook</a>
+            <a href="/">Youtube</a> <a href="/">Twitter</a>
+          </div>
+        </div>
+      </div>
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="/" id="footer__logo">JASSEM'</a>
+          </div>
+          <p class="website__rights">a Jassem Ghanmi's work</p>
+          <div class="social__icons">
+            <a href="/" class="social__icon--link" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-youtube"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

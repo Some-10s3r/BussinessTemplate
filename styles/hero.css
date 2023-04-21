@@ -1,0 +1,89 @@
+.hero {
+    background: #000000;
+    background: linear-gradient(to right, #161616, #000000);
+    padding: 200px 0;
+  }
+  
+  .hero__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 90%;
+    text-align: left;
+    padding: 30px;
+  }
+  .hero__intro__container{
+    display: flex;
+    align-items: center;
+  }
+  .myname{
+    color: #ffffff39;
+  }
+  .hr{
+    width: 80%;
+  }
+  
+  .hero__heading {
+    font-size: 100px;
+    margin-bottom: 24px;
+    color: #fff;
+  }
+  
+  .hero__heading span {
+    background: #ee0979; 
+    background: -webkit-linear-gradient(
+      to right,
+      #ff6a00,
+      #ee0979
+    ); 
+    background: linear-gradient(
+      to right,
+      #ff6a00,
+      #ee0979
+    );
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -mo-text-fill-color: transparent;
+  }
+  
+  .hero__description {
+    
+    transform: translateX(-2%);
+    font-size: 60px;
+    background: #e0640b; 
+    background: -webkit-linear-gradient(
+      to right,
+      #ebc8b8,
+      #6c53bdab
+    ); 
+    background: linear-gradient(
+      to right,
+      #ebc8b8,
+      #bd5375aa
+    ); 
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+  }
+  
+  
+  .highlight {
+    border-bottom: 4px solid rgb(231, 225, 237);
+  }
+  
+  @media screen and (max-width: 768px) {
+    .hero__heading {
+      font-size: 60px;
+    }
+  
+    .hero__description {
+      font-size: 40px;
+    }
+  }
